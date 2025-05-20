@@ -1,0 +1,121 @@
+/* Signup Container */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  background-color: #f8f9fa; /* Màu nền tương tự form login */
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 400px; /* Tăng chiều rộng để phù hợp với nội dung */
+  margin: auto;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  position: relative; /* Để đảm bảo vị trí cho nút đóng */
+  border: 2px solid #007bff; /* Thêm viền */
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+/* Title */
+.signup-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333; /* Màu chữ tương tự form login */
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Input Field */
+.signup-input {
+  padding: 12px 40px; /* Đảm bảo không gian cho biểu tượng */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-input:focus {
+  border-color: #6a11cb;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-input:hover {
+  border-color: #bbb;
+}
+
+/* Signup Button */
+.signup-button {
+  width: 100%; /* Đồng nhất với form login */
+  padding: 15px;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient giống form login */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem; /* Đồng nhất với form login */
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+/* Close Button */
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #ff0000;
+}
+
+.close-button i {
+  font-size: 1.5rem;
+}
+
+/* Switch to Login Styles */
+.login-switch {
+  margin-top: 20px;
+  color: #666;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.login-switch a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-switch a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

@@ -1,0 +1,151 @@
+/* Home Page styles */
+.home {
+  padding: 40px;
+  background: linear-gradient(45deg, #f0f0f0, #c0c0c0); /* Gradient nhẹ hơn */
+  text-align: center;
+  min-height: 100vh; /* Đảm bảo trang chiếm toàn bộ chiều cao */
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial Black', sans-serif; /* Font đậm hơn */
+}
+
+/* New Product List Title */
+.product-list-title {
+  font-size: 2rem; /* Kích thước chữ */
+  color: #ff6f00; /* Màu cam */
+  text-align: left; /* Căn trái */
+  margin: 30px 0 20px; /* Khoảng cách trên và dưới */
+  margin-left: 20px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Đảm bảo mỗi hàng có 6 sản phẩm */
+  gap: 0px; /* Loại bỏ khoảng cách giữa các sản phẩm */
+  justify-items: stretch; /* Căn chỉnh các sản phẩm để giãn đều */
+  align-items: stretch; /* Đảm bảo các sản phẩm giãn đều nhau */
+}
+
+.product-card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: left; /* Đảm bảo văn bản căn trái */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column; /* Đảm bảo các phần tử bên trong căn theo chiều dọc */
+  justify-content: space-between; /* Giãn đều các phần tử */
+  border: 1px solid #ddd; /* Thêm viền mềm mại */
+  position: relative; /* Để có thể thêm hiệu ứng */
+  height: 300px; /* Giảm chiều cao */
+  width: 100%; /* Chiều rộng tự động để giãn đều theo khung lưới */
+  overflow: hidden; /* Đảm bảo nội dung không tràn ra ngoài */
+  box-sizing: border-box; /* Bao gồm padding và border trong kích thước */
+}
+
+.product-card::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.product-card:hover::before {
+  border-color: #007bff; /* Viền xanh khi hover */
+}
+
+.product-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  width: 100%;
+  height: 150px; /* Giảm chiều cao cố định cho hình ảnh */
+  object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+}
+
+.product-name {
+  font-size: 1.4rem; /* Giảm kích thước chữ */
+  font-weight: normal; /* Sử dụng phông chữ thông thường */
+  color: #555; /* Màu nhẹ hơn */
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif; /* Font hiện đại và chuyên nghiệp */
+  text-align: left; /* Căn trái tên sản phẩm */
+}
+
+.product-price {
+  font-size: 1.2rem; /* Giảm kích thước chữ */
+  font-weight: normal; /* Sử dụng phông chữ thông thường */
+  color: #19aa3d; /* Màu nhẹ hơn */
+  text-align: left; /* Đảm bảo giá sản phẩm căn trái */
+  margin-bottom: 10px; /* Thêm khoảng cách phía dưới giá sản phẩm */
+  font-family: 'Roboto', sans-serif; /* Font hiện đại và chuyên nghiệp */
+}
+
+.product-link {
+  margin-top: auto; /* Đẩy nút xuống cuối thẻ */
+  padding: 10px 16px; /* Tăng kích thước padding */
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center; /* Căn giữa nút */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .product-list {
+    grid-template-columns: repeat(4, 1fr); /* Đảm bảo mỗi hàng có 4 sản phẩm trên màn hình nhỏ hơn */
+  }
+}
+
+@media (max-width: 992px) {
+  .product-list {
+    grid-template-columns: repeat(3, 1fr); /* Đảm bảo mỗi hàng có 3 sản phẩm trên màn hình nhỏ hơn */
+  }
+}
+
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr); /* Đảm bảo mỗi hàng có 2 sản phẩm trên màn hình nhỏ hơn */
+  }
+
+  .product-detail {
+    padding: 20px;
+  }
+
+  .product-image-large {
+    max-width: 300px;
+  }
+
+  .product-price {
+    font-size: 1.25rem;
+  }
+
+  .add-to-cart-btn {
+    width: 100%;
+  }
+
+  .related-product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .product-list {
+    grid-template-columns: 1fr; /* Đảm bảo mỗi hàng có 1 sản phẩm trên màn hình rất nhỏ */
+  }
+
+  .product-card {
+    width: 100%;
+  }
+}

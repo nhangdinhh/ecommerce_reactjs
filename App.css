@@ -1,0 +1,138 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto 0;
+  display: block;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #003f7f;
+}
+
+/* Cart and Checkout Title Styles */
+.cart-title, .checkout-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(left, #007bff, #6610f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Cart Item Actions Styles */
+.cart-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.quantity-btn {
+  background-color: #49e234;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.remove-btn {
+  background-color: #f5294b;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quantity-btn:hover, .remove-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-item-image {
+    margin-bottom: 15px;
+  }
+
+  .cart-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-footer .total-price {
+    margin-bottom: 10px;
+  }
+
+  .checkout-items {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .checkout-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkout-item img {
+    margin-bottom: 15px;
+  }
+
+  .total-price {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  button {
+    width: 90%;
+  }
+}
+
+/* Add margin to create space between footer and product list */
+.product-list {
+  margin-bottom: 400px;
+}
+
+/* Ensure the main content pushes the footer down */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+
+/* Nền chung cho Home và Featured */
+.section-background {
+  padding: 40px;
+  background: linear-gradient(45deg, #73dcfc, #a9a9a9); /* Gradient từ xanh sang xám */
+  text-align: center;
+  min-height: 100vh; /* Đảm bảo trang chiếm toàn bộ chiều cao */
+}
