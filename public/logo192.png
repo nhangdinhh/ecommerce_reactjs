@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="vi" class="html_stretched responsive av-preloader-disabled  html_header_top html_logo_left html_main_nav_header html_menu_right html_large html_header_sticky html_header_shrinking html_mobile_menu_phone html_header_searchicon_disabled html_content_align_center html_header_unstick_top html_header_stretch_disabled html_minimal_header html_minimal_header_shadow html_av-overlay-side html_av-overlay-side-minimal html_av-submenu-noclone html_entry_id_2156 av-cookies-no-cookie-consent av-no-preview av-default-lightbox html_text_menu_active av-mobile-menu-switch-default">
+<head>
+<meta charset="UTF-8" />
+
+
+<!-- mobile setting -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X8H4VK6R8V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X8H4VK6R8V');
+</script>
+
+<!-- Scripts/CSS and wp_head hook -->
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v19.12 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Giới thiệu về ReactJS - ACD Academy</title>
+	<link rel="canonical" href="https://acdacademy.vn/gioi-thieu-ve-reactjs/" />
+	<meta property="og:locale" content="vi_VN" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Giới thiệu về ReactJS - ACD Academy" />
+	<meta property="og:description" content="React.js là một thư viện Javascript đang nổi lên trong những năm gần đây với xu hướng Single Page Application. Trong khi những framework khác cố gắng hướng đến một mô hình MVC hoàn thiện thì React nổi bật với sự đơn giản và dễ dàng phối hợp với những thư viện Javascript khác. Nếu [&hellip;]" />
+	<meta property="og:url" content="https://acdacademy.vn/gioi-thieu-ve-reactjs/" />
+	<meta property="og:site_name" content="ACD Academy" />
+	<meta property="article:published_time" content="2023-09-24T18:01:08+00:00" />
+	<meta property="og:image" content="https://acdacademy.vn/wp-content/uploads/2023/09/js1.jpg" />
+	<meta property="og:image:width" content="512" />
+	<meta property="og:image:height" content="291" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="thảo thảo" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Được viết bởi" />
+	<meta name="twitter:data1" content="thảo thảo" />
+	<meta name="twitter:label2" content="Ước tính thời gian đọc" />
+	<meta name="twitter:data2" content="11 phút" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://acdacademy.vn/gioi-thieu-ve-reactjs/","url":"https://acdacademy.vn/gioi-thieu-ve-reactjs/","name":"Giới thiệu về ReactJS - ACD Academy","isPartOf":{"@id":"https://acdacademy.vn/#website"},"primaryImageOfPage":{"@id":"https://acdacademy.vn/gioi-thieu-ve-reactjs/#primaryimage"},"image":{"@id":"https://acdacademy.vn/gioi-thieu-ve-reactjs/#primaryimage"},"thumbnailUrl":"https://acdacademy.vn/wp-content/uploads/2023/09/js1.jpg","datePublished":"2023-09-24T18:01:08+00:00","dateModified":"2023-09-24T18:01:08+00:00","author":{"@id":"https://acdacademy.vn/#/schema/person/4a067a4e9be3fa2c95305915a8b8da53"},"breadcrumb":{"@id":"https://acdacademy.vn/gioi-thieu-ve-reactjs/#breadcrumb"},"inLanguage":"vi","potentialAction":[{"@type":"ReadAction","target":["https://acdacademy.vn/gioi-thieu-ve-reactjs/"]}]},{"@type":"ImageObject","inLanguage":"vi","@id":"https://acdacademy.vn/gioi-thieu-ve-reactjs/#primaryimage","url":"https://acdacademy.vn/wp-content/uploads/2023/09/js1.jpg","contentUrl":"https://acdacademy.vn/wp-content/uploads/2023/09/js1.jpg","width":512,"height":291},{"@type":"BreadcrumbList","@id":"https://acdacademy.vn/gioi-thieu-ve-reactjs/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Trang chủ","item":"https://acdacademy.vn/trang-chu/"},{"@type":"ListItem","position":2,"name":"Giới thiệu về ReactJS"}]},{"@type":"WebSite","@id":"https://acdacademy.vn/#website","url":"https://acdacademy.vn/","name":"ACD Academy","description":"Trung tâm đào tạo lập trình hàng đầu tại Việt Nam","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://acdacademy.vn/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"vi"},{"@type":"Person","@id":"https://acdacademy.vn/#/schema/person/4a067a4e9be3fa2c95305915a8b8da53","name":"thảo thảo","image":{"@type":"ImageObject","inLanguage":"vi","@id":"https://acdacademy.vn/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/9274dea14f42d7b014d9a1a8f26c37af?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/9274dea14f42d7b014d9a1a8f26c37af?s=96&d=mm&r=g","caption":"thảo thảo"},"url":"https://acdacademy.vn/author/thaoacd/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin ACD Academy &raquo;" href="https://acdacademy.vn/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ACD Academy &raquo; Dòng bình luận" href="https://acdacademy.vn/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ACD Academy &raquo; Giới thiệu về ReactJS Dòng bình luận" href="https://acdacademy.vn/gioi-thieu-ve-reactjs/feed/" />
+
+<!-- google webfont font replacement -->
+
+			<script type='text/javascript'>
+
+				(function() {
+
+					/*	check if webfonts are disabled by user setting via cookie - or user must opt in.	*/
+					var html = document.getElementsByTagName('html')[0];
+					var cookie_check = html.className.indexOf('av-cookies-needs-opt-in') >= 0 || html.className.indexOf('av-cookies-can-opt-out') >= 0;
+					var allow_continue = true;
+					var silent_accept_cookie = html.className.indexOf('av-cookies-user-silent-accept') >= 0;
+
+					if( cookie_check && ! silent_accept_cookie )
+					{
+						if( ! document.cookie.match(/aviaCookieConsent/) || html.className.indexOf('av-cookies-session-refused') >= 0 )
+						{
+							allow_continue = false;
+						}
+						else
+						{
+							if( ! document.cookie.match(/aviaPrivacyRefuseCookiesHideBar/) )
+							{
+								allow_continue = false;
+							}
+							else if( ! document.cookie.match(/aviaPrivacyEssentialCookiesEnabled/) )
+							{
+								allow_continue = false;
+							}
+							else if( document.cookie.match(/aviaPrivacyGoogleWebfontsDisabled/) )
+							{
+								allow_continue = false;
+							}
+						}
+					}
+
+					if( allow_continue )
+					{
+						var f = document.createElement('link');
+
+						f.type 	= 'text/css';
+						f.rel 	= 'stylesheet';
+						f.href 	= '//fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700%7COpen+Sans:400,600&display=auto';
+						f.id 	= 'avia-google-webfont';
+
+						document.getElementsByTagName('head')[0].appendChild(f);
+					}
+				})();
+
+			</script>
+			<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/acdacademy.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='avia-grid-css' href='https://acdacademy.vn/wp-content/themes/enfold/css/grid.css?ver=5.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-base-css' href='https://acdacademy.vn/wp-content/themes/enfold/css/base.css?ver=5.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-layout-css' href='https://acdacademy.vn/wp-content/themes/enfold/css/layout.css?ver=5.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-blog-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/blog/blog.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-postslider-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/postslider/postslider.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-button-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttons/buttons.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-comments-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/comments/comments.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-contact-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/contact/contact.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-gallery-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/gallery/gallery.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-gridrow-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/grid_row/grid_row.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-heading-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/heading/heading.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-hr-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/hr/hr.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-icon-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/icon/icon.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-iconbox-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/iconbox/iconbox.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-image-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image/image.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-masonry-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/masonry_entries/masonry_entries.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-siteloader-css' href='https://acdacademy.vn/wp-content/themes/enfold/css/avia-snippet-site-preloader.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-numbers-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/numbers/numbers.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow/slideshow.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-social-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/social_share/social_share.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-tabs-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-team-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/team/team.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-timeline-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/timeline/timeline.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-module-video-css' href='https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.css?ver=6.7.1' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://acdacademy.vn/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--metallic-red: #b02b2c;--wp--preset--color--maximum-yellow-red: #edae44;--wp--preset--color--yellow-sun: #eeee22;--wp--preset--color--palm-leaf: #83a846;--wp--preset--color--aero: #7bb0e7;--wp--preset--color--old-lavender: #745f7e;--wp--preset--color--steel-teal: #5f8789;--wp--preset--color--raspberry-pink: #d65799;--wp--preset--color--medium-turquoise: #4ecac2;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1130px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-metallic-red-color{color: var(--wp--preset--color--metallic-red) !important;}.has-maximum-yellow-red-color{color: var(--wp--preset--color--maximum-yellow-red) !important;}.has-yellow-sun-color{color: var(--wp--preset--color--yellow-sun) !important;}.has-palm-leaf-color{color: var(--wp--preset--color--palm-leaf) !important;}.has-aero-color{color: var(--wp--preset--color--aero) !important;}.has-old-lavender-color{color: var(--wp--preset--color--old-lavender) !important;}.has-steel-teal-color{color: var(--wp--preset--color--steel-teal) !important;}.has-raspberry-pink-color{color: var(--wp--preset--color--raspberry-pink) !important;}.has-medium-turquoise-color{color: var(--wp--preset--color--medium-turquoise) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-metallic-red-background-color{background-color: var(--wp--preset--color--metallic-red) !important;}.has-maximum-yellow-red-background-color{background-color: var(--wp--preset--color--maximum-yellow-red) !important;}.has-yellow-sun-background-color{background-color: var(--wp--preset--color--yellow-sun) !important;}.has-palm-leaf-background-color{background-color: var(--wp--preset--color--palm-leaf) !important;}.has-aero-background-color{background-color: var(--wp--preset--color--aero) !important;}.has-old-lavender-background-color{background-color: var(--wp--preset--color--old-lavender) !important;}.has-steel-teal-background-color{background-color: var(--wp--preset--color--steel-teal) !important;}.has-raspberry-pink-background-color{background-color: var(--wp--preset--color--raspberry-pink) !important;}.has-medium-turquoise-background-color{background-color: var(--wp--preset--color--medium-turquoise) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-metallic-red-border-color{border-color: var(--wp--preset--color--metallic-red) !important;}.has-maximum-yellow-red-border-color{border-color: var(--wp--preset--color--maximum-yellow-red) !important;}.has-yellow-sun-border-color{border-color: var(--wp--preset--color--yellow-sun) !important;}.has-palm-leaf-border-color{border-color: var(--wp--preset--color--palm-leaf) !important;}.has-aero-border-color{border-color: var(--wp--preset--color--aero) !important;}.has-old-lavender-border-color{border-color: var(--wp--preset--color--old-lavender) !important;}.has-steel-teal-border-color{border-color: var(--wp--preset--color--steel-teal) !important;}.has-raspberry-pink-border-color{border-color: var(--wp--preset--color--raspberry-pink) !important;}.has-medium-turquoise-border-color{border-color: var(--wp--preset--color--medium-turquoise) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://acdacademy.vn/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-scs-css' href='https://acdacademy.vn/wp-content/themes/enfold/css/shortcodes.css?ver=5.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-popup-css-css' href='https://acdacademy.vn/wp-content/themes/enfold/js/aviapopup/magnific-popup.css?ver=5.1.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-lightbox-css' href='https://acdacademy.vn/wp-content/themes/enfold/css/avia-snippet-lightbox.css?ver=5.1.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-widget-css-css' href='https://acdacademy.vn/wp-content/themes/enfold/css/avia-snippet-widget.css?ver=5.1.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='avia-dynamic-css' href='https://acdacademy.vn/wp-content/uploads/dynamic_avia/enfold.css?ver=63b440581707f' type='text/css' media='all' />
+<link rel='stylesheet' id='avia-custom-css' href='https://acdacademy.vn/wp-content/themes/enfold/css/custom.css?ver=5.1.2' type='text/css' media='all' />
+<script type="text/javascript" src="https://acdacademy.vn/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/avia-compat.js?ver=5.1.2" id="avia-compat-js"></script>
+<link rel="https://api.w.org/" href="https://acdacademy.vn/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://acdacademy.vn/wp-json/wp/v2/posts/2156" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://acdacademy.vn/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.1" />
+<link rel='shortlink' href='https://acdacademy.vn/?p=2156' />
+<link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed" href="https://acdacademy.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Facdacademy.vn%2Fgioi-thieu-ve-reactjs%2F" />
+<link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed" href="https://acdacademy.vn/wp-json/oembed/1.0/embed?url=https%3A%2F%2Facdacademy.vn%2Fgioi-thieu-ve-reactjs%2F&#038;format=xml" />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="alternate" type="application/rss+xml" title="ACD Academy RSS2 Feed" href="https://acdacademy.vn/feed/" />
+<link rel="pingback" href="https://acdacademy.vn/xmlrpc.php" />
+<!--[if lt IE 9]><script src="https://acdacademy.vn/wp-content/themes/enfold/js/html5shiv.js"></script><![endif]-->
+
+<link rel="icon" href="https://acdacademy.vn/wp-content/uploads/2022/10/cropped-favicon-acd-academy-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://acdacademy.vn/wp-content/uploads/2022/10/cropped-favicon-acd-academy-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://acdacademy.vn/wp-content/uploads/2022/10/cropped-favicon-acd-academy-180x180.png" />
+<meta name="msapplication-TileImage" content="https://acdacademy.vn/wp-content/uploads/2022/10/cropped-favicon-acd-academy-270x270.png" />
+<style type='text/css'>
+@font-face {font-family: 'entypo-fontello'; font-weight: normal; font-style: normal; font-display: auto;
+src: url('https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff2') format('woff2'),
+url('https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff') format('woff'),
+url('https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.ttf') format('truetype'),
+url('https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.svg#entypo-fontello') format('svg'),
+url('https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot'),
+url('https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?#iefix') format('embedded-opentype');
+} #top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont='entypo-fontello']:before{ font-family: 'entypo-fontello'; }
+
+@font-face {font-family: 'justice'; font-weight: normal; font-style: normal; font-display: auto;
+src: url('https://acdacademy.vn/wp-content/uploads/avia_fonts/justice/justice.woff2') format('woff2'),
+url('https://acdacademy.vn/wp-content/uploads/avia_fonts/justice/justice.woff') format('woff'),
+url('https://acdacademy.vn/wp-content/uploads/avia_fonts/justice/justice.ttf') format('truetype'),
+url('https://acdacademy.vn/wp-content/uploads/avia_fonts/justice/justice.svg#justice') format('svg'),
+url('https://acdacademy.vn/wp-content/uploads/avia_fonts/justice/justice.eot'),
+url('https://acdacademy.vn/wp-content/uploads/avia_fonts/justice/justice.eot?#iefix') format('embedded-opentype');
+} #top .avia-font-justice, body .avia-font-justice, html body [data-av_iconfont='justice']:before{ font-family: 'justice'; }
+</style>
+
+<!--
+Debugging Info for Theme support: 
+
+Theme: Enfold
+Version: 5.1.2
+Installed: enfold
+AviaFramework Version: 5.0
+AviaBuilder Version: 4.8
+aviaElementManager Version: 1.0.1
+ML:512-PU:84-PLA:8
+WP:6.7.1
+Compress: CSS:disabled - JS:disabled
+Updates: disabled
+PLAu:7
+-->
+</head>
+
+<body data-rsssl=1 id="top" class="post-template-default single single-post postid-2156 single-format-standard stretched no_sidebar_border rtl_columns av-curtain-numeric cormorant_garamond open_sans  avia-responsive-images-support" itemscope="itemscope" itemtype="https://schema.org/WebPage" >
+
+	
+	<div id='wrap_all'>
+
+	
+<header id='header' class='all_colors header_color dark_bg_color  av_header_top av_logo_left av_main_nav_header av_menu_right av_large av_header_sticky av_header_shrinking av_header_stretch_disabled av_mobile_menu_phone av_header_searchicon_disabled av_header_unstick_top av_seperator_small_border av_minimal_header av_minimal_header_shadow av_bottom_nav_disabled  av_alternate_logo_active'  role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
+
+		<div  id='header_main' class='container_wrap container_wrap_logo'>
+
+        <div class='container av-logo-container'><div class='inner-container'><span class='logo avia-standard-logo'><a href='https://acdacademy.vn/' class=''><img src="https://acdacademy.vn/wp-content/uploads/2022/09/logo-acd-academy-1.png" height="100" width="300" alt='ACD Academy' title='logo acd academy' /></a></span><nav class='main_menu' data-selectname='Select a page'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia-menu av-main-nav-wrap"><ul role="menu" class="menu av-main-nav" id="avia-menu"><li role="menuitem" id="menu-item-849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-top-level menu-item-top-level-1"><a href="https://acdacademy.vn/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Trang chủ</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-2"><a href="https://acdacademy.vn/gioi-thieu/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Giới thiệu</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-top-level menu-item-top-level-3"><a href="#" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Khóa học</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li role="menuitem" id="menu-item-891" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://acdacademy.vn/hoc-flutter-mobile/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Lập trình Frontend Mobile Flutter</span></a></li>
+	<li role="menuitem" id="menu-item-893" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://acdacademy.vn/nhap-mon-lap-trinh-c-c/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Nhập môn lập trình c/c++</span></a></li>
+	<li role="menuitem" id="menu-item-898" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://acdacademy.vn/kiem-thu-phan-mem-tester/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Kiểm thử phần mềm Tester</span></a></li>
+</ul>
+</li>
+<li role="menuitem" id="menu-item-920" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-top-level menu-item-top-level-4"><a href="https://acdacademy.vn/category/kien-thuc/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Kiến thức</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-921" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-mega-parent  menu-item-top-level menu-item-top-level-5"><a href="https://acdacademy.vn/category/tin-tuc/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Tin tức</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li role="menuitem" id="menu-item-845" class="menu-item menu-item-type-post_type menu-item-object-page av-menu-button av-menu-button-colored menu-item-top-level menu-item-top-level-6"><a href="https://acdacademy.vn/lien-he/" itemprop="url" tabindex="0"><span class="avia-bullet"></span><span class="avia-menu-text">Đăng ký ngay</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li class="av-burger-menu-main menu-item-avia-special av-small-burger-icon">
+	        			<a href="#" aria-label="Menu" aria-hidden="false">
+							<span class="av-hamburger av-hamburger--spin av-js-hamburger">
+								<span class="av-hamburger-box">
+						          <span class="av-hamburger-inner"></span>
+						          <strong>Menu</strong>
+								</span>
+							</span>
+							<span class="avia_hidden_link_text">Menu</span>
+						</a>
+	        		   </li></ul></div></nav></div> </div> 
+		<!-- end container_wrap-->
+		</div>
+		<div class='header_bg'></div>
+
+<!-- end header -->
+</header>
+
+	<div id='main' class='all_colors' data-scroll-offset='116'>
+
+	
+		<div class='container_wrap container_wrap_first main_color sidebar_right'>
+
+			<div class='container template-blog template-single-blog '>
+
+				<main class='content units av-content-small alpha  av-blog-meta-author-disabled av-blog-meta-comments-disabled av-blog-meta-category-disabled av-blog-meta-date-disabled av-blog-meta-html-info-disabled'  role="main" itemscope="itemscope" itemtype="https://schema.org/Blog" >
+
+                    <article class="post-entry post-entry-type-standard post-entry-2156 post-loop-1 post-parity-odd post-entry-last multi-big with-slider post-2156 post type-post status-publish format-standard has-post-thumbnail hentry category-flutter category-kien-thuc"  itemscope="itemscope" itemtype="https://schema.org/BlogPosting" itemprop="blogPost" ><div class="big-preview multi-big"  itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><a href="https://acdacademy.vn/wp-content/uploads/2023/09/js1.jpg" data-srcset="https://acdacademy.vn/wp-content/uploads/2023/09/js1.jpg 512w, https://acdacademy.vn/wp-content/uploads/2023/09/js1-300x171.jpg 300w" data-sizes="(max-width: 512px) 100vw, 512px"  title="js1" ><img width="512" height="291" src="https://acdacademy.vn/wp-content/uploads/2023/09/js1.jpg" class="wp-image-2157 avia-img-lazy-loading-2157 attachment-entry_with_sidebar size-entry_with_sidebar wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://acdacademy.vn/wp-content/uploads/2023/09/js1.jpg 512w, https://acdacademy.vn/wp-content/uploads/2023/09/js1-300x171.jpg 300w" sizes="(max-width: 512px) 100vw, 512px" /></a></div><div class="blog-meta"><a href='https://acdacademy.vn/author/thaoacd/' class='post-author-format-type'><span class='rounded-container'><img alt='thảo thảo' src='https://secure.gravatar.com/avatar/9274dea14f42d7b014d9a1a8f26c37af?s=81&#038;d=blank&#038;r=g' srcset='https://secure.gravatar.com/avatar/9274dea14f42d7b014d9a1a8f26c37af?s=162&#038;d=blank&#038;r=g 2x' class='avatar avatar-81 photo' height='81' width='81' loading='lazy' decoding='async'/><span class="iconfont" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></span></span></a></div><div class='entry-content-wrapper clearfix standard-content'><header class="entry-content-header"><h1 class='post-title entry-title '  itemprop="headline" >Giới thiệu về ReactJS<span class="post-format-icon minor-meta"></span></h1><span class="post-meta-infos"></span></header><div class="entry-content"  itemprop="text" ><p><span style="font-weight: 400;">React.js là một thư viện Javascript đang nổi lên trong những năm gần đây với xu hướng Single Page Application. Trong khi những framework khác cố gắng hướng đến một mô hình MVC hoàn thiện thì React nổi bật với sự đơn giản và dễ dàng phối hợp với những thư viện Javascript khác. Nếu như AngularJS là một Framework cho phép nhúng code javasscript trong code html thông qua các attribute như ng-model, ng-repeat&#8230;thì với react là một library cho phép nhúng code html trong code javascript nhờ vào JSX, bạn có thể dễ dàng lồng các đoạn HTML vào trong JS.Tích hợp giữa javascript và HTML vào trong JSX làm cho các component dễ hiểu hơn</span></p>
+<h2><b>1. ReactJS là gì?</b></h2>
+<p><span style="font-weight: 400;">ReactJS là một thư viện JavaScript mã nguồn mở được phát triển bởi Facebook, ra mắt vào năm 2013 với mục đích để xây dựng giao diện người dùng. Nó được sử dụng rộng rãi để xây dựng các trang web SPA (Single Page Application) và các ứng dụng trên nền tảng di động. Nó rất dễ sử dụng và cho phép người dùng có thể tạo các component UI có thể tái sử dụng.</span></p>
+<p><img decoding="async" class="alignnone wp-image-2157" src="https://acdacademy.vn/wp-content/uploads/2023/09/js1-300x171.jpg" alt="" width="700" height="398" srcset="https://acdacademy.vn/wp-content/uploads/2023/09/js1-300x171.jpg 300w, https://acdacademy.vn/wp-content/uploads/2023/09/js1.jpg 512w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p><span style="font-weight: 400;">Một trong những điểm hấp dẫn của React là thư viện này không chỉ hoạt động trên phía client, mà còn được render trên server và có thể kết nối với nhau. React so sánh sự thay đổi giữa các giá trị của lần render này với lần render trước và cập nhật ít thay đổi nhất trên DOM.</span></p>
+<h2><b>2. </b><b>Những tính năng của ReactJS</b></h2>
+<p><span style="font-weight: 400;">ReactJS có các tính năng hết sức nổi bật bao gồm:</span></p>
+<p><span style="font-weight: 400;">JSX: viết tắt của JavaScript extension, nó là React extension , giúp cho việc thay đổi cây DOM dễ dàng hơn bằng HTML-style code đơn giản. Nó là một trong những tính năng tốt và dễ sử dụng.</span></p>
+<p><span style="font-weight: 400;">Components: Một trang web được xây dựng bằng ReactJS là một sự kết hợp nhiều component lại với nhau chứ không phải chung một Template như bình thường. Các component cũng như các hàm JavaScript bình thường, giúp tạo ra các code dễ dàng bằng cách tách các logic ra thành các đoạn code độc lập có thể tái sử dụng. Chúng ta có thể sử dụng component dưới dạng function hoặc class, ngoài ra các component còn có state và props.</span></p>
+<p><span style="font-weight: 400;">Virtual DOM: ReactJS tạo một thứ gọi là Virtual DOM (DOM ảo). Đúng như tên gọi, nó là một copy của DOM thật trên trang web đó. ReactJS dùng những DOM ảo đó để tìm đúng những DOM thật cần được cập nhật khi có bất kỳ sự kiện nào làm các thành phần bên trong nó thay đổi.</span></p>
+<p><span style="font-weight: 400;">Javascript Expressions: Biểu thức JS có thể sử dụng trong file .jsx hoặc .js bằng cách sử dụng cặp dấu ngoặc nhọn “{}”.</span></p>
+<h2><b>3. ReactJS: Ưu và nhược điểm</b></h2>
+<p><span style="font-weight: 400;">Mỗi framework hay thư viện nào cũng có ưu và nhược điểm cả, ReactJS cũng vậy. Dưới đây là ưu và nhược điểm của ReactJS.</span></p>
+<h3><b>3.1 Ưu điểm của ReactJS</b></h3>
+<p><span style="font-weight: 400;">Vì ReactJS sử dụng DOM ảo để cache cấu trúc dữ liệu trong bộ nhớ và chỉ những thay đổi cuối cùng mới được cập nhật vào trong DOM trình duyệt. Điều này làm cho ứng dụng trở nên nhanh hơn.</span></p>
+<p><span style="font-weight: 400;">Bạn có thể tạo các component theo từng chức năng mà bạn muốn bằng cách sử dụng tính năng react component. Các component này có thể tái sử dụng theo nhu cầu của bạn, đồng thời việc tạo các component theo từng chức năng cũng giúp cho việc bảo trì sau này trở nên dễ dàng hơn.</span></p>
+<p><span style="font-weight: 400;">ReactJS là một opensource, vì vậy cũng rất dễ cho những bạn mới bắt đầu tìm hiểu nó.</span></p>
+<p><span style="font-weight: 400;">Trong những năm gần đây, ReactJS đang trở nên phổ biến hơn và được duy trì bởi Facebook và Instagram. Ngoài ra nó cũng được sử dụng bởi các công ty nổi tiếng như Apple, Netflix, …</span></p>
+<p><span style="font-weight: 400;">Facebook vẫn đang duy trì, phát triển, và cho ra những thay đổi mới. Vì thế bạn cứ yên tâm sử dụng ReactJS cho những dự án của bạn hoặc những dự án dành do doanh nghiệp.</span></p>
+<p><span style="font-weight: 400;">ReactJS có thể được sử dụng để xây dựng giao diện người dùng cho cả các ứng dụng dành cho máy tính và các ứng dụng di động.</span></p>
+<p><span style="font-weight: 400;">Dễ dàng cho việc test và debug, vì hầu hết các code đều được thực hiện bằng JavaScript chứ không phải bằng HTML.</span></p>
+<h3><b>3.2 Nhược điểm của ReactJS</b></h3>
+<p><span style="font-weight: 400;">Vì hầu hết code được viết dưới dạng JSX, tức là HTML và CSS là một phần của JavaScript, nó không giống như những framework khác vẫn tách biệt giữa HTML và CSS nên những bạn mới làm quen với ReactJS sẽ hơi lúng túng và dễ nhầm lẫn giữa JSX và HTML. Tuy nhiên bạn sẽ nhanh chóng quen với cách kết hợp này của React mà thôi.</span></p>
+<p><span style="font-weight: 400;">Một nhược điểm nữa của ReactJS đó là dung lượng các file của nó hơi lớn.</span></p>
+<h2><strong>4. Tìm hiểu về một số khái niệm để lập trình tốt ReactJS</strong></h2>
+<h3><strong>4.1.JSX</strong></h3>
+<p><img decoding="async" class="aligncenter wp-image-2159" src="https://acdacademy.vn/wp-content/uploads/2023/09/js2-300x157.png" alt="" width="700" height="366" srcset="https://acdacademy.vn/wp-content/uploads/2023/09/js2-300x157.png 300w, https://acdacademy.vn/wp-content/uploads/2023/09/js2.png 512w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Trọng tâm chính của bất kỳ website cơ bản nào đó là những HTML documents. Trình duyệt Web đọc những document này để hiển thị nội dung của website trên máy tính, tablet, điện thoại của bạn. Trong suốt quá trình đó, trình duyệt sẽ tạo ra một thứ gọi là Document Object Model (DOM) – một tree đại diện cho cấu trúc website được hiển thị như thế nào. Lập trình viên có thể thêm bất kỳ dynamic content nào vào những dự án của họ bằng cách sử dụng ngôn ngữ JavaScript để thay đổi cây DOM.</span></p>
+<p><span style="font-weight: 400;">JSX (nói ngắn gọn là JavaScript extension) là một React extension giúp chúng ta dễ dàng thay đổi cây DOM bằng các HTML-style code đơn giản. Và kể từ lúc ReactJS browser hỗ trợ toàn bộ những trình duyệt Web hiện đại, bạn có thể tự tin sử dụng JSX trên bất kỳ trình duyệt nào mà bạn đang làm việc.</span></p>
+<h3><strong>4.2.Virtual DOM</strong></h3>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-2160" src="https://acdacademy.vn/wp-content/uploads/2023/09/js3-1-300x172.png" alt="" width="700" height="402" srcset="https://acdacademy.vn/wp-content/uploads/2023/09/js3-1-300x172.png 300w, https://acdacademy.vn/wp-content/uploads/2023/09/js3-1.png 512w" sizes="auto, (max-width: 700px) 100vw, 700px" /></p>
+<p><span style="font-weight: 400;">Nếu bạn không sử dụng ReactJS (và JSX), website của bạn sẽ sử dụng HTML để cập nhật lại cây DOM cho chính bản nó (quá trình thay đổi diễn ra tự nhiên trên trang mà người dùng không cần phải tải lại trang), cách làm này sẽ ổn cho các website nhỏ, đơn giản, static website. Nhưng đối với các website lớn, đặc biệt là những website thiên về xử lý các tương tác của người dùng nhiều, điều này sẽ làm ảnh hưởng performance website cực kỳ nghiêm trọng bởi vì toàn bộ cây DOM phải reload lại mỗi lần người dùng nhấn vào tính năng yêu cầu phải tải lại trang).</span></p>
+<p><span style="font-weight: 400;">Tuy nhiên, nếu bạn sử dụng JSX thì bạn sẽ giúp cây DOM cập nhật cho chính DOM đó, ReactJS đã khởi tạo một thứ gọi là Virtual DOM (DOM ảo). Virtual DOM (bản chất của nó theo đúng tên gọi) là bản copy của DOM thật trên trang đó, và ReactJS sử dụng bản copy đó để tìm kiếm đúng phần mà DOM thật cần cập nhật khi bất kỳ một sự kiện nào đó khiến thành phần trong nó thay đổi (chẳng hạn như user nhấn vào một nút bất kỳ).</span></p>
+<p><span style="font-weight: 400;">Ví dụ, khi người dùng bình luận vào khung comment vào bất kỳ bài Blog nào trên website của bạn và nhấn “Enter”. Dĩ nhiên, người dùng của bạn sẽ cần phải thấy được bình luận của mình đã được thêm vào danh sách bình luận. Giả sử trong trường hợp không sử dụng ReactJS, toàn bộ cây DOM sẽ phải cập nhật để báo hiệu sự thay đổi mới này. Còn khi bạn sử dụng React, nó sẽ giúp bạn scan qua Virtual DOM để xem những gì đã thay đổi sau khi người dùng thực hiện hành động trên (trong trường hợp này, thêm mới bình luận) và lựa chọn đúng nơi đúng chỗ cần cập nhật sự thay đổi mà thôi.</span></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-2161" src="https://acdacademy.vn/wp-content/uploads/2023/09/js4-300x134.jpg" alt="" width="700" height="313" srcset="https://acdacademy.vn/wp-content/uploads/2023/09/js4-300x134.jpg 300w, https://acdacademy.vn/wp-content/uploads/2023/09/js4.jpg 512w" sizes="auto, (max-width: 700px) 100vw, 700px" /></p>
+<p><span style="font-weight: 400;">Với việc cập nhật đúng chỗ như vậy, khỏi phải nói nó tiết kiệm cho chúng ta rất nhiều tài nguyên cũng như thời gian xử lý. Ở các website lớn và phức tạp như thương mại điện tử, đặt món ăn, v.v bạn sẽ thấy việc này là vô cùng cần thiết và quan trọng để làm tăng trải trải nghiệm của khách hàng và performance được cải thiện đáng kể.</span></p>
+</div><footer class="entry-footer"><div class='av-social-sharing-box av-social-sharing-box-default av-social-sharing-box-fullwidth'><div class="av-share-box"><h5 class='av-share-link-description av-no-toc '>Share this entry</h5><ul class="av-share-box-list noLightbox"><li class='av-share-link av-social-link-facebook' ><a target="_blank" aria-label="Share on Facebook" href='https://www.facebook.com/sharer.php?u=https://acdacademy.vn/gioi-thieu-ve-reactjs/&#038;t=Gi%E1%BB%9Bi%20thi%E1%BB%87u%20v%E1%BB%81%20ReactJS' aria-hidden='false' data-av_icon='' data-av_iconfont='entypo-fontello' title='' data-avia-related-tooltip='Share on Facebook' rel="noopener"><span class='avia_hidden_link_text'>Share on Facebook</span></a></li><li class='av-share-link av-social-link-twitter' ><a target="_blank" aria-label="Share on Twitter" href='https://twitter.com/share?text=Gi%E1%BB%9Bi%20thi%E1%BB%87u%20v%E1%BB%81%20ReactJS&#038;url=https://acdacademy.vn/?p=2156' aria-hidden='false' data-av_icon='' data-av_iconfont='entypo-fontello' title='' data-avia-related-tooltip='Share on Twitter' rel="noopener"><span class='avia_hidden_link_text'>Share on Twitter</span></a></li><li class='av-share-link av-social-link-pinterest' ><a target="_blank" aria-label="Share on Pinterest" href='https://pinterest.com/pin/create/button/?url=https%3A%2F%2Facdacademy.vn%2Fgioi-thieu-ve-reactjs%2F&#038;description=Gi%E1%BB%9Bi%20thi%E1%BB%87u%20v%E1%BB%81%20ReactJS&#038;media=https%3A%2F%2Facdacademy.vn%2Fwp-content%2Fuploads%2F2023%2F09%2Fjs1.jpg' aria-hidden='false' data-av_icon='' data-av_iconfont='entypo-fontello' title='' data-avia-related-tooltip='Share on Pinterest' rel="noopener"><span class='avia_hidden_link_text'>Share on Pinterest</span></a></li><li class='av-share-link av-social-link-reddit' ><a target="_blank" aria-label="Share on Reddit" href='https://reddit.com/submit?url=https://acdacademy.vn/gioi-thieu-ve-reactjs/&#038;title=Gi%E1%BB%9Bi%20thi%E1%BB%87u%20v%E1%BB%81%20ReactJS' aria-hidden='false' data-av_icon='' data-av_iconfont='entypo-fontello' title='' data-avia-related-tooltip='Share on Reddit' rel="noopener"><span class='avia_hidden_link_text'>Share on Reddit</span></a></li></ul></div></div></footer><div class='post_delimiter'></div></div><div class="post_author_timeline"></div><span class='hidden'>
+				<span class='av-structured-data'  itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" >
+						<span itemprop='url'>https://acdacademy.vn/wp-content/uploads/2023/09/js1.jpg</span>
+						<span itemprop='height'>291</span>
+						<span itemprop='width'>512</span>
+				</span>
+				<span class='av-structured-data'  itemprop="publisher" itemtype="https://schema.org/Organization" itemscope="itemscope" >
+						<span itemprop='name'>thảo thảo</span>
+						<span itemprop='logo' itemscope itemtype='https://schema.org/ImageObject'>
+							<span itemprop='url'>https://acdacademy.vn/wp-content/uploads/2022/09/logo-acd-academy-1.png</span>
+						 </span>
+				</span><span class='av-structured-data'  itemprop="author" itemscope="itemscope" itemtype="https://schema.org/Person" ><span itemprop='name'>thảo thảo</span></span><span class='av-structured-data'  itemprop="datePublished" datetime="2023-09-24T18:01:08+00:00" >2023-09-24 18:01:08</span><span class='av-structured-data'  itemprop="dateModified" itemtype="https://schema.org/dateModified" >2023-09-24 18:01:08</span><span class='av-structured-data'  itemprop="mainEntityOfPage" itemtype="https://schema.org/mainEntityOfPage" ><span itemprop='name'>Giới thiệu về ReactJS</span></span></span></article><div class='multi-big'></div>
+
+
+
+
+<div class='comment-entry post-entry'>
+
+<div class='comment_meta_container'>
+
+			<div class='side-container-comment'>
+
+	        		<div class='side-container-comment-inner'>
+	        			
+	        			<span class='comment-count'>0</span>
+   						<span class='comment-text'>replies</span>
+   						<span class='center-border center-border-left'></span>
+   						<span class='center-border center-border-right'></span>
+
+	        		</div>
+
+	        	</div>
+
+			</div>
+
+<div class='comment_container'><h3 class='miniheading '>Leave a Reply</h3><span class='minitext'>Want to join the discussion? <br/>Feel free to contribute!</span>	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Để lại một bình luận <small><a rel="nofollow" id="cancel-comment-reply-link" href="/gioi-thieu-ve-reactjs/#respond" style="display:none;">Hủy</a></small></h3><form action="https://acdacademy.vn/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Email của bạn sẽ không được hiển thị công khai.</span> <span class="required-field-message">Các trường bắt buộc được đánh dấu <span class="required">*</span></span></p><p class="comment-form-author"><label for="author">Tên <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required="required" /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required="required" /></p>
+<p class="comment-form-url"><label for="url">Trang web</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200" autocomplete="url" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Lưu tên của tôi, email, và trang web trong trình duyệt này cho lần bình luận kế tiếp của tôi.</label></p>
+<p class="comment-form-comment"><label for="comment">Bình luận <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Gửi bình luận" /> <input type='hidden' name='comment_post_ID' value='2156' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	</div>
+</div>
+				<!--end content-->
+				</main>
+
+				<aside class='sidebar sidebar_right   alpha units'  role="complementary" itemscope="itemscope" itemtype="https://schema.org/WPSideBar" ><div class='inner_sidebar extralight-border'><section id="categories-2" class="widget clearfix widget_categories"><h3 class="widgettitle">Danh Mục</h3>
+			<ul>
+					<li class="cat-item cat-item-20"><a href="https://acdacademy.vn/category/flutter/">Flutter</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="https://acdacademy.vn/category/khoa-hoc/">Khóa học</a>
+<ul class='children'>
+	<li class="cat-item cat-item-22"><a href="https://acdacademy.vn/category/khoa-hoc/khoa-hoc-flutter/">Khóa học flutter</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-18"><a href="https://acdacademy.vn/category/kien-thuc/">Kiến thức</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="https://acdacademy.vn/category/lap-trinh-typescript/">Lập trình TypeScript</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="https://acdacademy.vn/category/seo-mkt/">SEO-MKT</a>
+</li>
+			</ul>
+
+			<span class="seperator extralight-border"></span></section>
+		<section id="recent-posts-2" class="widget clearfix widget_recent_entries">
+		<h3 class="widgettitle">Bài viết mới</h3>
+		<ul>
+											<li>
+					<a href="https://acdacademy.vn/cac-ky-thuat-uoc-luong/">Các kỹ thuật ước lượng</a>
+									</li>
+											<li>
+					<a href="https://acdacademy.vn/gioi-thieu-ve-reactjs/" aria-current="page">Giới thiệu về ReactJS</a>
+									</li>
+											<li>
+					<a href="https://acdacademy.vn/su-khac-biet-giua-tieu-de-h1-va-tieu-de-seo/">Sự khác biệt giữa tiêu đề H1 và tiêu đề SEO</a>
+									</li>
+											<li>
+					<a href="https://acdacademy.vn/huong-dan-cach-toi-uu-anh-trong-bai-viet-chuan-seo-tu-a-z/">Hướng dẫn cách tối ưu ảnh trong bài viết chuẩn SEO từ A &#8211; Z</a>
+									</li>
+											<li>
+					<a href="https://acdacademy.vn/textlink-chia-khoa-thanh-cong-trong-seo/">Textlink &#8211; Chìa khóa thành công trong SEO</a>
+									</li>
+					</ul>
+
+		<span class="seperator extralight-border"></span></section></div></aside>
+
+			</div><!--end container-->
+
+		</div><!-- close default .container_wrap element -->
+
+
+<div class="footer-page-content footer_color" id="footer-page"><style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-l8v88kp5-5490e56173803123dbdcf354e5523a41">
+.avia-section.av-l8v88kp5-5490e56173803123dbdcf354e5523a41{
+background-color:#040335;
+background-image:unset;
+}
+</style>
+<div id='av_section_1'  class='avia-section av-l8v88kp5-5490e56173803123dbdcf354e5523a41 main_color avia-section-default avia-no-border-styling  avia-builder-el-0  el_before_av_section  avia-builder-el-first  avia-bg-style-scroll container_wrap fullsize'  ><div class='container av-section-cont-open' ><main  role="main" itemscope="itemscope" itemtype="https://schema.org/Blog"  class='template-page content  av-content-full alpha units'><div class='post-entry post-entry-type-page post-entry-2156'><div class='entry-content-wrapper clearfix'>
+<div class='flex_column av-11xj6i-7ef9f00bc9a991a91c375f0e49c9816f av_one_third  avia-builder-el-1  el_before_av_one_third  avia-builder-el-first  first flex_column_div '     ><style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-zp8qy-a849745d3472672d5deeeaf97b12a101">
+.avia-image-container.av-zp8qy-a849745d3472672d5deeeaf97b12a101 img.avia_image{
+box-shadow:none;
+}
+.avia-image-container.av-zp8qy-a849745d3472672d5deeeaf97b12a101 .av-image-caption-overlay-center{
+color:#ffffff;
+}
+</style>
+<div  class='avia-image-container av-zp8qy-a849745d3472672d5deeeaf97b12a101 av-styling- avia-align-center  avia-builder-el-2  avia-builder-el-no-sibling '   itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject" ><div class="avia-image-container-inner"><div class="avia-image-overlay-wrap"><img decoding="async" class='wp-image-851 avia-img-lazy-loading-not-851 avia_image ' src="https://acdacademy.vn/wp-content/uploads/2022/09/logo-acd-academy-1.png" alt='' title='logo acd academy'  height="100" width="300"  itemprop="thumbnailUrl"  /></div></div></div></div><div class='flex_column av-min3m-7d17304a26710aae398ec332ab52cb20 av_one_third  avia-builder-el-3  el_after_av_one_third  el_before_av_one_third  flex_column_div '     ><style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-l8v8aqvc-f61becadbc647368ae84952e6ef5676b">
+#top .av-special-heading.av-l8v8aqvc-f61becadbc647368ae84952e6ef5676b{
+padding-bottom:10px;
+color:#ffffff;
+}
+body .av-special-heading.av-l8v8aqvc-f61becadbc647368ae84952e6ef5676b .av-special-heading-tag .heading-char{
+font-size:25px;
+}
+.av-special-heading.av-l8v8aqvc-f61becadbc647368ae84952e6ef5676b .special-heading-inner-border{
+border-color:#ffffff;
+}
+.av-special-heading.av-l8v8aqvc-f61becadbc647368ae84952e6ef5676b .av-subheading{
+font-size:15px;
+}
+</style>
+<div  class='av-special-heading av-l8v8aqvc-f61becadbc647368ae84952e6ef5676b av-special-heading-h3 custom-color-heading  avia-builder-el-4  el_before_av_textblock  avia-builder-el-first '><h3 class='av-special-heading-tag'  itemprop="headline"  >Chính sách</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+
+<style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-fudeq-cef1670b3073ccd88ce69252cd0766cd">
+#top .av_textblock_section.av-fudeq-cef1670b3073ccd88ce69252cd0766cd .avia_textblock{
+color:#f9f9f9;
+}
+</style>
+<section  class='av_textblock_section av-fudeq-cef1670b3073ccd88ce69252cd0766cd'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='avia_textblock av_inherit_color'  itemprop="text" ><p><span style="font-size: 14pt;"><a href="#">Giới thiệu</a></span><br />
+<span style="font-size: 14pt;"> <a href="#">Khóa học</a></span><br />
+<span style="font-size: 14pt;"> <a href="#">Chính sách &#038; Quy định</a></span><br />
+<span style="font-size: 14pt;"> <a href="#">Chính sách bảo mật</a></span><br />
+<span style="font-size: 14pt;"> <a href="#">Chính sách Cookie</a></span></p>
+</div></section></div><div class='flex_column av-7nsgy-135b990d30fe28861963f95e358098ce av_one_third  avia-builder-el-6  el_after_av_one_third  avia-builder-el-last  flex_column_div '     ><style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-l8v8cdsn-3ea1023d860a854771cf9e8e96d38930">
+#top .av-special-heading.av-l8v8cdsn-3ea1023d860a854771cf9e8e96d38930{
+padding-bottom:10px;
+color:#ffffff;
+}
+body .av-special-heading.av-l8v8cdsn-3ea1023d860a854771cf9e8e96d38930 .av-special-heading-tag .heading-char{
+font-size:25px;
+}
+.av-special-heading.av-l8v8cdsn-3ea1023d860a854771cf9e8e96d38930 .special-heading-inner-border{
+border-color:#ffffff;
+}
+.av-special-heading.av-l8v8cdsn-3ea1023d860a854771cf9e8e96d38930 .av-subheading{
+font-size:15px;
+}
+</style>
+<div  class='av-special-heading av-l8v8cdsn-3ea1023d860a854771cf9e8e96d38930 av-special-heading-h3 custom-color-heading  avia-builder-el-7  el_before_av_textblock  avia-builder-el-first '><h3 class='av-special-heading-tag'  itemprop="headline"  >ACD Academy</h3><div class="special-heading-border"><div class="special-heading-inner-border"></div></div></div>
+
+<style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-l8v8dmhi-bb81e1a41bec1caa8c28b792a9f3a15b">
+#top .av_textblock_section.av-l8v8dmhi-bb81e1a41bec1caa8c28b792a9f3a15b .avia_textblock{
+color:#ffffff;
+}
+</style>
+<section  class='av_textblock_section av-l8v8dmhi-bb81e1a41bec1caa8c28b792a9f3a15b'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='avia_textblock av_inherit_color'  itemprop="text" ><p><span style="font-size: 14pt;">Địa chỉ: Tầng 11 ZEN Tower, số 12 Khuất Duy Tiến, Thanh Xuân, Hà Nội</span><br />
+<span style="font-size: 14pt;"> Email: acdacademy.info@gmail.com</span><br />
+<span style="font-size: 14pt;"> Hotline: 0396520882</span></p>
+</div></section>
+
+<style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-l8v8xv7q-561b38f9aed8ceb5f36b1eb9d4e7a249">
+.av_font_icon.av-l8v8xv7q-561b38f9aed8ceb5f36b1eb9d4e7a249{
+color:#ffffff;
+border-color:#ffffff;
+}
+.av_font_icon.av-l8v8xv7q-561b38f9aed8ceb5f36b1eb9d4e7a249 .av-icon-char{
+font-size:25px;
+line-height:25px;
+}
+</style>
+<span  class='av_font_icon av-l8v8xv7q-561b38f9aed8ceb5f36b1eb9d4e7a249 avia_animate_when_visible av-icon-style- avia-icon-pos-left avia-icon-animate'><a href='https://www.facebook.com/profile.php?id=100085965378974'  class='av-icon-char' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' ></a></span>
+
+<style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-l8v8y219-edfd3b10046286fc98dff37581de370a">
+.av_font_icon.av-l8v8y219-edfd3b10046286fc98dff37581de370a{
+color:#ffffff;
+border-color:#ffffff;
+}
+.av_font_icon.av-l8v8y219-edfd3b10046286fc98dff37581de370a .av-icon-char{
+font-size:25px;
+line-height:25px;
+}
+</style>
+<span  class='av_font_icon av-l8v8y219-edfd3b10046286fc98dff37581de370a avia_animate_when_visible av-icon-style- avia-icon-pos-left avia-icon-animate'><a href='https://www.youtube.com/@acdacademychannel2460'  class='av-icon-char' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' ></a></span>
+
+<style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-l8v8y6p1-a1153fa271c5864d09a2778809d5db60">
+.av_font_icon.av-l8v8y6p1-a1153fa271c5864d09a2778809d5db60{
+color:#ffffff;
+border-color:#ffffff;
+}
+.av_font_icon.av-l8v8y6p1-a1153fa271c5864d09a2778809d5db60 .av-icon-char{
+font-size:25px;
+line-height:25px;
+}
+</style>
+<span  class='av_font_icon av-l8v8y6p1-a1153fa271c5864d09a2778809d5db60 avia_animate_when_visible av-icon-style- avia-icon-pos-left avia-icon-animate'><a href='https://acdacademy.vn/'  class='av-icon-char' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' ></a></span></div></div></div></main><!-- close content main element --></div></div>
+<style type="text/css" data-created_by="avia_inline_auto" id="style-css-av-fpp76-5eeb3846466499bab68de077d1264564">
+.avia-section.av-fpp76-5eeb3846466499bab68de077d1264564{
+background-color:#040335;
+background-image:unset;
+}
+</style>
+<div id='cpr'  class='avia-section av-fpp76-5eeb3846466499bab68de077d1264564 main_color avia-section-default avia-no-border-styling  avia-builder-el-12  el_after_av_section  avia-builder-el-last  avia-bg-style-scroll container_wrap fullsize'  ><div class='container av-section-cont-open' ><div class='template-page content  av-content-full alpha units'><div class='post-entry post-entry-type-page post-entry-2156'><div class='entry-content-wrapper clearfix'>
+<section  class='av_textblock_section av-15tmq-abc4805983bf3875b3403ddaf64ec9cc'  itemscope="itemscope" itemtype="https://schema.org/CreativeWork" ><div class='avia_textblock'  itemprop="text" ><p style="text-align: center;"><span style="color: #ffffff;">Copyright @ Vietnam 2022. All Rights Reserved.</span></p>
+</div></section>
+</p>
+</div></div></div><!-- close content main div --> <!-- section close by builder template -->		</div><!--end builder template--></div><!-- close default .container_wrap element --></div>
+
+			<!-- end main -->
+		</div>
+
+		<a class='avia-post-nav avia-post-prev with-image' href='https://acdacademy.vn/su-khac-biet-giua-tieu-de-h1-va-tieu-de-seo/' ><span class="label iconfont" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></span><span class="entry-info-wrap"><span class="entry-info"><span class='entry-title'>Sự khác biệt giữa tiêu đề H1 và tiêu đề SEO</span><span class='entry-image'><img width="80" height="80" src="https://acdacademy.vn/wp-content/uploads/2023/09/the-h1-khac-tieu-de-nhu-the-nao-80x80.png" class="wp-image-2153 avia-img-lazy-loading-2153 attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://acdacademy.vn/wp-content/uploads/2023/09/the-h1-khac-tieu-de-nhu-the-nao-80x80.png 80w, https://acdacademy.vn/wp-content/uploads/2023/09/the-h1-khac-tieu-de-nhu-the-nao-36x36.png 36w, https://acdacademy.vn/wp-content/uploads/2023/09/the-h1-khac-tieu-de-nhu-the-nao-180x180.png 180w" sizes="auto, (max-width: 80px) 100vw, 80px" /></span></span></span></a><a class='avia-post-nav avia-post-next with-image' href='https://acdacademy.vn/cac-ky-thuat-uoc-luong/' ><span class="label iconfont" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'></span><span class="entry-info-wrap"><span class="entry-info"><span class='entry-image'><img width="80" height="80" src="https://acdacademy.vn/wp-content/uploads/2023/09/ul2-80x80.jpg" class="wp-image-2166 avia-img-lazy-loading-2166 attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://acdacademy.vn/wp-content/uploads/2023/09/ul2-80x80.jpg 80w, https://acdacademy.vn/wp-content/uploads/2023/09/ul2-36x36.jpg 36w, https://acdacademy.vn/wp-content/uploads/2023/09/ul2-180x180.jpg 180w" sizes="auto, (max-width: 80px) 100vw, 80px" /></span><span class='entry-title'>Các kỹ thuật ước lượng</span></span></span></a><!-- end wrap_all --></div>
+
+<a href='#top' title='Scroll to top' id='scroll-top-link' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Scroll to top</span></a>
+
+<div id="fb-root"></div>
+<div class="list-social">
+	<ul>
+		<li id="ytb"> <a href="https://www.youtube.com/@acdacademychannel2460"><img src="https://acdacademy.vn/wp-content/uploads/2022/12/ytubr.png"></a></li>
+		<li id="fb"> <a href="https://www.facebook.com/profile.php?id=100085965378974"><img src="https://acdacademy.vn/wp-content/uploads/2022/12/icon-fb.png"></a></li>
+		<li id="mes"> <a href="https://www.facebook.com/messages/t/102633159286791"><img src="https://acdacademy.vn/wp-content/uploads/2022/12/messegericon.png"></a></li>
+		<li id="zalo"> <a href="https://zalo.me/0396520882"><img src="https://acdacademy.vn/wp-content/uploads/2022/12/icon-zalo.png"></a></li>
+		
+	</ul>
+</div>
+
+
+ <script type='text/javascript'>
+ /* <![CDATA[ */  
+var avia_framework_globals = avia_framework_globals || {};
+    avia_framework_globals.frameworkUrl = 'https://acdacademy.vn/wp-content/themes/enfold/framework/';
+    avia_framework_globals.installedAt = 'https://acdacademy.vn/wp-content/themes/enfold/';
+    avia_framework_globals.ajaxurl = 'https://acdacademy.vn/wp-admin/admin-ajax.php';
+/* ]]> */ 
+</script>
+ 
+ <script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/avia.js?ver=5.1.2" id="avia-default-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/shortcodes.js?ver=5.1.2" id="avia-shortcodes-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/contact/contact.js?ver=6.7.1" id="avia-module-contact-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/gallery/gallery.js?ver=6.7.1" id="avia-module-gallery-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/portfolio/isotope.js?ver=6.7.1" id="avia-module-isotope-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/masonry_entries/masonry_entries.js?ver=6.7.1" id="avia-module-masonry-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/numbers/numbers.js?ver=6.7.1" id="avia-module-numbers-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow/slideshow.js?ver=6.7.1" id="avia-module-slideshow-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow/slideshow-video.js?ver=6.7.1" id="avia-module-slideshow-video-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.js?ver=6.7.1" id="avia-module-tabs-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/timeline/timeline.js?ver=6.7.1" id="avia-module-timeline-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.js?ver=6.7.1" id="avia-module-video-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.6.4" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/acdacademy.vn\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/avia-snippet-hamburger-menu.js?ver=5.1.2" id="avia-hamburger-menu-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/parallax.js?ver=5.1.2" id="avia-parallax-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/avia-snippet-parallax.js?ver=5.1.2" id="avia-parallax-support-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/aviapopup/jquery.magnific-popup.min.js?ver=5.1.2" id="avia-popup-js-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/avia-snippet-lightbox.js?ver=5.1.2" id="avia-lightbox-activation-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/avia-snippet-megamenu.js?ver=5.1.2" id="avia-megamenu-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/avia-snippet-sticky-header.js?ver=5.1.2" id="avia-sticky-header-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/avia-snippet-footer-effects.js?ver=5.1.2" id="avia-footer-effects-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/js/avia-snippet-widget.js?ver=5.1.2" id="avia-widget-js-js"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-includes/js/comment-reply.min.js?ver=6.7.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" src="https://acdacademy.vn/wp-content/themes/enfold/config-gutenberg/js/avia_blocks_front.js?ver=5.1.2" id="avia_blocks_front_script-js"></script>
+</body>
+</html>
