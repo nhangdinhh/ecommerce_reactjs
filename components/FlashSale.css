@@ -1,0 +1,134 @@
+/* Flash Sale styles */
+.flash-sale {
+  background-color: #f7cd90;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  margin-bottom: 90px;
+  margin-top: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm bóng mờ */
+  font-family: 'Roboto', sans-serif; /* Sử dụng phông chữ hiện đại */
+}
+
+.flash-sale h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ff6f00;
+  
+}
+
+.countdown-timer {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  color: #d32f2f;
+  font-family: 'Roboto', sans-serif; /* Font hiện đại */
+}
+
+.flash-sale-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flash-sale-product {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 220px; /* Đặt chiều rộng cố định */
+  transition: transform 0.3s, box-shadow 0.3s; /* Thêm hiệu ứng bóng mờ */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bóng mờ nhẹ */
+}
+
+.flash-sale-product:hover {
+  transform: translateY(-5px); /* Dịch chuyển lên trên một chút khi hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bóng mờ đậm hơn khi hover */
+}
+
+.flash-sale-product img {
+  max-width: 100%;
+  height: 180px; /* Đặt chiều cao cố định cho hình ảnh */
+  object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+  border-radius: 10px; /* Viền tròn cho hình ảnh */
+  transition: transform 0.3s ease;
+}
+
+.flash-sale-product:hover img {
+  transform: scale(1.05); /* Thêm hiệu ứng phóng to khi hover */
+}
+
+.flash-sale-product h3 {
+  font-size: 1.25rem;
+  margin: 10px 0;
+  color: #333;
+  font-family: 'Roboto', sans-serif; /* Font hiện đại */
+}
+
+.flash-sale-product .old-price {
+  text-decoration: line-through;
+  color: #9e9e9e;
+  font-size: 1rem;
+}
+
+.flash-sale-product .new-price {
+  font-size: 1.5rem;
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.flash-sale-product .stock {
+  font-size: 1rem;
+  color: #d32f2f;
+}
+
+.flash-sale-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.flash-sale-link:hover {
+  background-color: #e65100;
+  color: #fff;
+}
+.flash-sale-products {
+  display: flex;
+  justify-content: space-between; /* Chia đều khoảng cách giữa các phần tử */
+  flex-wrap: wrap;
+}
+
+.flash-sale-product {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: calc(16.66% - 20px); /* Đặt chiều rộng mỗi sản phẩm và khoảng cách đều nhau */
+  transition: transform 0.3s, box-shadow 0.3s; /* Thêm hiệu ứng bóng mờ */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bóng mờ nhẹ */
+  flex: 0 1 calc(16.66% - 20px); /* Giữ sản phẩm trên một hàng */
+}
+
+.flash-sale-product img {
+  max-width: 100%;
+  height: 180px; /* Đặt chiều cao cố định cho hình ảnh */
+  object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+  border-radius: 10px; /* Viền tròn cho hình ảnh */
+  transition: transform 0.3s ease;
+}
+
+.flash-sale-product:hover {
+  transform: translateY(-5px); /* Dịch chuyển lên trên một chút khi hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bóng mờ đậm hơn khi hover */
+}
